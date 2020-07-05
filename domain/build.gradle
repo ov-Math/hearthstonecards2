@@ -1,0 +1,23 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    // RxKotlin
+    implementation 'io.reactivex.rxjava3:rxkotlin:3.0.0'
+
+    // GSON
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    // Mockk
+    testImplementation "io.mockk:mockk:1.10.0"
+
+    // JUnit 4
+    testImplementation 'junit:junit:4.12'
+
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HearthstoneCards</string>
+    <string name="hearthstone">Hearthstone</string>
+    <string name="classes_label">Classes</string>
+    <string name="sets_label">Sets</string>
+    <string name="types_label">Types</string>
+    <string name="faction_label">Factions</string>
+    <string name="qualities_label">Qualities</string>
+    <string name="races_label">Races</string>
+    <string name="generic_error">Something went wrong. Please try again later.</string>
+    <string name="login_error">The typed e-mail or password is invalid.</string>
+    <string name="email_label">E-mail</string>
+    <string name="password_label">Password</string>
+    <string name="login_btn">SIGN IN</string>
+    <string name="welcome_text">Welcome, %s</string>
+    <string name="logout_btn">Log out</string>
+</resources>
