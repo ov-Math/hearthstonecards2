@@ -1,4 +1,8 @@
-O projeto em questão se trata de um aplicativo de exemplo de uso básico de diversas libs e práticas muito comuns no desenvolvimento de aplicativos Android nativos usando a linguagem Kotlin. Foi feita uma integração com a API de cartas do jogo Hearthstone. Elas estão listadas de acordo com determinadas categorias e cada card de categoria na tela principal é pintado com uma cor aleatória. O login e o controle de sessão são simples e apenas para fim de exemplificação, para a autenticação basta digitar qualquer e-mail que seja válido e usar a senha "1234". A seguir serão listadas algumas escolhas de projeto:
+O projeto em questão se trata de um aplicativo de exemplo de uso básico de diversas libs e práticas muito comuns no desenvolvimento de aplicativos Android nativos usando a linguagem Kotlin. Foi feita uma integração com a API de cartas do jogo Hearthstone. Elas estão listadas de acordo com determinadas categorias e cada card de categoria na tela principal é pintado com uma cor aleatória. O login e o controle de sessão são simples e apenas para fim de exemplificação, para a autenticação basta digitar qualquer e-mail que seja válido e usar a senha "1234".
+
+Link da API: https://hearthstoneapi.com/ (Observação: os links das imagens que vêm dessa API estão quebrados e para que elas apareçam o ID das imagens estão sendo concatenados em uma URL de um outro banco de dados de cartas de Hearthstone: https://art.hearthstonejson.com/)
+
+A seguir estão listadas algumas das escolhas de projeto:
 
 1) Arquitetura
 
